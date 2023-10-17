@@ -496,6 +496,7 @@ footer .column {
         border-right: none;
         color: black;
         text-align: center;
+        width: 170px;
     }
 
     .formulaire-recherche .icon-localisation {
@@ -582,6 +583,10 @@ footer .column {
         object-fit: cover;
     }
 
+    .activites-marseille {
+        padding: 0px;
+    }
+
     .activites-marseille .section-title {
         font-size: 22px;
         font-weight: 700;
@@ -589,7 +594,6 @@ footer .column {
 
     .activites-marseille .activites-cards {
         flex-direction: column;
-        width: 579.2px;
     }
 
     .activites-marseille .activites-cards a {
