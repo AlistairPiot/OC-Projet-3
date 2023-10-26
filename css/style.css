@@ -139,21 +139,25 @@ input.input-placeholder {
     gap: 20px;
 }
 
-.section-filtres button {
+.section-filtres .svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -0.125em;
+    color: #0065fc;
+}
+
+.section-filtres .button-filtres-class {
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 17px;
     border-radius: 25px;
-    padding: 4px 19px 4px 19px;
+    padding: 14px 19px;
     border: 2px solid #d9d9d9;
     background-color: white;
-}
-
-.section-filtres .icon-filtres {
-    color: var(--main-color);
-    padding: 10px;
+    gap: 20px;
 }
 
 .section-filtres button:hover {
@@ -525,8 +529,9 @@ footer .column {
         flex-wrap: wrap;
     }
 
-    .button-filtres button {
+    .button-filtres .button-filtres-class {
         width: calc(50% - 10px);
+        font-size: 15px;
     }
 
     .hebergements-and-populaires .hebergements {
@@ -622,5 +627,29 @@ footer .column {
     footer .column p {
         font-size: 16px;
         font-weight: 400;
+    }
+}
+
+/* Small devices (GalaxyFold) */
+@media (max-width: 281px) {
+    .button-filtres .button-filtres-class {
+        width: calc(50% - 10px);
+        padding-left: 21px;
+        font-size: 13px;
+    }
+
+    .populaires {
+        width: 300px;
+        margin: 0px;
+    }
+
+    .populaires .populaires-cards .card {
+        width: 220px;
+    }
+
+    .main-container {
+        width: 100%;
+        max-width: 1440px;
+        padding: 0 10px;
     }
 }
