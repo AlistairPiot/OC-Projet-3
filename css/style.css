@@ -451,6 +451,12 @@ footer .column {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    .main-container {
+        width: 100%;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
     header {
         flex-direction: column;
     }
@@ -656,29 +662,5 @@ footer .column {
     footer .column p {
         font-size: 16px;
         font-weight: 400;
-    }
-}
-
-/* Small devices (GalaxyFold) */
-@media (max-width: 281px) {
-    .button-filtres .button-filtres-class {
-        width: calc(50% - 10px);
-        padding-left: 21px;
-        font-size: 13px;
-    }
-
-    .populaires {
-        width: 300px;
-        margin: 0px;
-    }
-
-    .populaires .populaires-cards .card {
-        width: 220px;
-    }
-
-    .main-container {
-        width: 100%;
-        max-width: 1440px;
-        padding: 0 10px;
     }
 }
