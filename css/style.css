@@ -517,6 +517,9 @@ footer .column {
         display: none;
     }
 
+    .formulaire-recherche {
+        padding: 0 20px;
+    }
     .formulaire {
         border-right: none;
         width: 57%;
@@ -551,6 +554,7 @@ footer .column {
     .section-filtres {
         display: flex;
         flex-wrap: wrap;
+        padding: 0 20px;
     }
 
     .button-filtres {
@@ -564,6 +568,7 @@ footer .column {
     }
 
     .info-logement {
+        padding: 0 20px;
         margin-bottom: 5px;
     }
 
@@ -635,10 +640,12 @@ footer .column {
     .activites-marseille .section-title {
         font-size: 22px;
         font-weight: 700;
+        padding: 0 20px;
     }
 
     .activites-marseille .activites-cards {
         flex-direction: column;
+        padding: 0 20px;
     }
 
     .activites-marseille .activites-cards a {
@@ -657,6 +664,7 @@ footer .column {
 
     footer {
         flex-direction: column;
+        padding: 0 20px;
     }
 
     footer h3 {
