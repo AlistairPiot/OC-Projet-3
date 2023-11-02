@@ -522,7 +522,7 @@ footer .column {
     }
     .formulaire {
         border-right: none;
-        width: 57%;
+        width: 100%;
     }
 
     input.input-placeholder {
