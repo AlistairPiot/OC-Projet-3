@@ -677,3 +677,10 @@ footer .column {
         font-weight: 400;
     }
 }
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 281px) {
+    input.input-placeholder {
+        font-size: 16px;
+        width: 145px;
+    }
+}
