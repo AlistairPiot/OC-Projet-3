@@ -451,6 +451,11 @@ footer .column {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+
     .main-container {
         width: 100%;
         padding: 0px;
