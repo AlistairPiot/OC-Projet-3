@@ -193,7 +193,7 @@ input.input-placeholder {
     height: 20px;
     padding: 2px;
 }
-/* ------ ------------------------- ------ */
+/****** Hebergements And Populaires ***********/
 
 .section-title {
     margin: 0;
@@ -223,7 +223,6 @@ input.input-placeholder {
     color: var(--main-bg-color);
 }
 
-/****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -677,7 +676,7 @@ footer .column {
         font-weight: 400;
     }
 }
-/* Medium devices (tablets, less/equal than 1024px) */
+/* Small devices (Galaxy Fold) */
 @media (max-width: 281px) {
     input.input-placeholder {
         font-size: 16px;
