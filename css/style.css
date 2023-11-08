@@ -77,7 +77,7 @@ nav ul li a:hover {
     display: flex;
     border-radius: 15px;
     padding: 0px;
-    width: 100px;
+    width: 276px;
     border: 1px solid var(--main-bg-color);
 }
 
@@ -521,7 +521,7 @@ footer .column {
     }
     .formulaire {
         border-right: none;
-        width: 80%;
+        width: 70%;
     }
 
     input.input-placeholder {
